@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Para Mi Amor, Lorena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Partículas de fondo para mayor romanticismo -->
+    <div id="particles"></div>
+
+    <div id="mobile-app">
+        <div class="scroll-container" id="scroll-area">
+            
+            <!-- Sección 1: Inicio original[cite: 1] -->
+            <section class="screen-section" id="hero">
+                <div class="glass-panel pulse-glow">
+                    <!-- Banderas originales[cite: 1] -->
+                    <div class="flags">🇨🇴 ❤️ 🇲🇽</div>
+                    <h1 class="neon-title">Hola, Mi Princesa Lorena</h1>
+                    <p class="subtitle">Desliza hacia abajo para ver lo que mi corazón quiere decirte...</p>
+                    <div class="scroll-indicator">↓</div>
+                </div>
+            </section>
+
+            <!-- Sección 2: Música y Letra[cite: 1] -->
+            <section class="screen-section">
+                <div class="glass-panel hidden-element">
+                    <h2 class="neon-title">Nuestra Frecuencia 🌸</h2>
+                    <p class="love-text">Porque cada vez que escucho esta canción, te veo a ti.</p>
+                    
+                    <!-- Reproductor de audio original[cite: 1] -->
+                    <audio id="real-audio" src="Llegaste tu.mp3"></audio>
+                    <div class="music-player">
+                        <div class="disk" id="disk">🎵</div>
+                        <div class="progress-bar"><div class="progress" id="progress"></div></div>
+                        <button class="btn-play" id="play-btn">▶ REPRODUCIR</button>
+                    </div>
+
+                    <!-- Letra de la canción original integrada en el diseño[cite: 1] -->
+                    <div class="lyrics-container">
+                        <p>Me sentía tan solo...</p>
+                        <p>Te lo juro no quería volverme a enamorar,</p>
+                        <p>De la nada llegaste tú.</p>
+                        <p>Mis noches eran frías y mi mundo sin color,</p>
+                        <p>Tú le pusiste los matices y me brindaste calor.</p>
+                        <p>Y es que tú no eres cualquiera, espera,</p>
+                        <p>Comprende la manera que mis ojos te ven...</p>
+                        <p class="highlight-lyric">Si tuviera que elegir entre mi vida y tú, te elegiría a ti.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección 3: Razones (Contenido Nuevo de Amor) -->
+            <section class="screen-section">
+                <div class="glass-panel hidden-element">
+                    <h2 class="neon-title">¿Por qué te amo? 💘</h2>
+                    <div class="reasons-grid">
+                        <div class="reason-card">Tu sonrisa ilumina incluso mis días más oscuros.</div>
+                        <div class="reason-card">La distancia entre 🇨🇴 y 🇲🇽 no es nada comparada con lo inmenso que siento por ti.</div>
+                        <div class="reason-card">Porque me salvaste, justo como dice la canción.</div>
+                        <div class="reason-card">Por la paz que me da escuchar tu voz.</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección 4: Desbloqueo y Mensaje Secreto[cite: 1] -->
+            <section class="screen-section">
+                <div class="glass-panel hidden-element">
+                    <h2 class="neon-title">Mi Corazón es Tuyo</h2>
+                    <p class="instruction">Toca el corazón repetidamente para llenarlo de amor y descubrir mi mensaje para ti.</p>
+                    
+                    <!-- Botón y barra de energía[cite: 1, 2] -->
+                    <button class="btn-heart" id="heart-btn">❤️</button>
+                    <div class="energy-bar-container">
+                        <div class="energy-bar" id="energy-bar"></div>
+                    </div>
+                    <p id="energy-text">0% de Amor Cargado</p>
+
+                    <!-- Mensaje secreto expandido[cite: 1] -->
+                    <div id="secret-message" class="secret-message">
+                        <h3 class="neon-title">Para Lorena 💖</h3>
+                        <div id="typewriter-text" class="long-love-letter">
+                            <!-- El texto se inyectará por JS para el efecto máquina de escribir -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
